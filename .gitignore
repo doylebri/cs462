@@ -1,0 +1,9 @@
+.git-ignored
+.ipynb_checkpoints
+
+# don't commit images or models to github
+data
+model.tf
+
+# don't commit virtualenv to github
+venv
