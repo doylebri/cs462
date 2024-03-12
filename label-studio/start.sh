@@ -1,5 +1,6 @@
 #!/bin/bash
 
 source venv/bin/activate
-label-studio --port 8081
+nohup label-studio --port 8081 &>/dev/null </dev/null &
+
 
