@@ -1,4 +1,5 @@
 #!/bin/bash
 
 source venv/bin/activate
-nohup jupyter notebook --port 8891 &>/dev/null </dev/null &
+jupyter notebook --port 8891
+#nohup jupyter notebook --port 8891 &>/dev/null </dev/null &
